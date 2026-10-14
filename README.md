@@ -148,126 +148,126 @@ For platform engineers prioritizing data sovereignty, low-latency on-premises de
 
 ### Open-Source Solutions Ranked by Stars
 
-The table below is sorted in descending order by **GitHub Stars**:
+The table below is sorted in descending order by **GitHub_Stars**:
 
-| 🌟 Repository & Project | 🏷️ Star Badge *(Social)* | ⚙️ Primary Role & Runtime | 📄 License | 🎯 Target Workload |
+| 🌟 Repository & Project | 🏷️ Stars_Badge *(Social)* | ⚙️ Primary Role & Runtime | 📄 License | 🎯 Target Workload |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Ollama](https://github.com/ollama/ollama)** | [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | Self-Hosted Model Runner / CLI | MIT | Local development, private workstation & internal edge AI |
-| **[vLLM](https://github.com/vllm-project/vllm)** | [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) | High-Throughput Serving Engine | Apache 2.0 | High-concurrency enterprise LLM inference with PagedAttention |
-| **[LocalAI](https://github.com/mudler/LocalAI)** | [![GitHub stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers) | Multi-Model Drop-in OpenAI API | MIT | On-prem multimodal serving across CPU, GPU, and edge |
-| **[Ray (Ray Serve)](https://github.com/ray-project/ray)** | [![GitHub stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers) | Distributed Compute & Serving Mesh | Apache 2.0 | Scalable multi-model composition and distributed inference |
-| **[SGLang](https://github.com/sgl-project/sglang)** | [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers) | High-Performance Serving & Runtime | Apache 2.0 | RadixAttention KV-cache reuse, structured JSON decoding |
-| **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** | [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers) | GPU Kernel Compiler & Runtime | Apache 2.0 | Maximum hardware throughput on NVIDIA H100 / B200 GPUs |
-| **[Triton Inference Server](https://github.com/triton-inference-server/server)** | [![GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers) | Enterprise Multi-Model Server | BSD 3-Clause | Heterogeneous production serving across PyTorch, ONNX, and LLMs |
-| **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** | [![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers) | Production LLM Serving Server | Apache 2.0 | Turnkey Hugging Face model deployment with continuous batching |
-| **[SkyPilot](https://github.com/skypilot-org/skypilot)** | [![GitHub stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers) | Multi-Cloud AI Compute Orchestrator | Apache 2.0 | 3x–5x GPU cost reduction via automatic multi-cloud failover |
-| **[Xinference](https://github.com/xorbitsai/inference)** | [![GitHub stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers) | Distributed Model Inference Cluster | Apache 2.0 | Turnkey distributed deployment of LLM, speech, and multimodal |
-| **[BentoML](https://github.com/bentoml/BentoML)** | [![GitHub stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers) | Unified AI Model Serving Framework | Apache 2.0 | Adaptive batching, multi-model execution graphs, Python microservices |
-| **[ClearML (ClearML Serving)](https://github.com/clearml/clearml)** | [![GitHub stars](https://img.shields.io/github/stars/clearml/clearml?style=social&color=white)](https://github.com/clearml/clearml/stargazers) | MLOps & Model Serving Suite | Apache 2.0 | Automated model registry sync, canary rollouts, CI/CD pipelines |
-| **[KServe](https://github.com/kserve/kserve)** | [![GitHub stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers) | Kubernetes Model Serving Operator | Apache 2.0 | Cloud-native serverless inference, Knative scale-to-zero, canary |
-| **[GPUStack](https://github.com/gpustack/gpustack)** | [![GitHub stars](https://img.shields.io/github/stars/gpustack/gpustack?style=social&color=white)](https://github.com/gpustack/gpustack/stargazers) | Lightweight GPU Cluster Manager | Apache 2.0 | Heterogeneous GPU pooling (Apple Silicon, NVIDIA, AMD) |
-| **[Seldon Core](https://github.com/SeldonIO/seldon-core)** | [![GitHub stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social&color=white)](https://github.com/SeldonIO/seldon-core/stargazers) | Cloud-Native MLOps Framework | Apache 2.0 | Complex inference graphs, model explainability, traffic routing |
-| **[Lorax](https://github.com/predibase/lorax)** | [![GitHub stars](https://img.shields.io/github/stars/predibase/lorax?style=social&color=white)](https://github.com/predibase/lorax/stargazers) | Multi-LoRA Inference Engine | Apache 2.0 | Serving thousands of fine-tuned adapters on a single GPU |
-| **[KAI Scheduler (Run:ai)](https://github.com/kai-scheduler/KAI-Scheduler)** | [![GitHub stars](https://img.shields.io/github/stars/kai-scheduler/KAI-Scheduler?style=social&color=white)](https://github.com/kai-scheduler/KAI-Scheduler/stargazers) | Kubernetes Native AI Scheduler | Apache 2.0 | Gang scheduling, fractional GPU slicing with hard memory isolation |
-| **[Truss](https://github.com/basetenlabs/truss)** | [![GitHub stars](https://img.shields.io/github/stars/basetenlabs/truss?style=social&color=white)](https://github.com/basetenlabs/truss/stargazers) | Model Packaging & Serving Framework | Apache 2.0 | Standardized model packaging with fast container rebuilds |
-| **[Kaito](https://github.com/kaito-project/kaito)** | [![GitHub stars](https://img.shields.io/github/stars/kaito-project/kaito?style=social&color=white)](https://github.com/kaito-project/kaito/stargazers) | Kubernetes AI Toolchain Operator | Apache 2.0 | Auto-provisioning GPU node pools and preset vLLM runtimes |
+| **[Ollama](https://github.com/ollama/ollama)** | [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) | Self-Hosted Model Runner / CLI | MIT | Local development, private workstation & internal edge AI |
+| **[vLLM](https://github.com/vllm-project/vllm)** | [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) | High-Throughput Serving Engine | Apache 2.0 | High-concurrency enterprise LLM inference with PagedAttention |
+| **[LocalAI](https://github.com/mudler/LocalAI)** | [![GitHub_Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers) | Multi-Model Drop-in OpenAI API | MIT | On-prem multimodal serving across CPU, GPU, and edge |
+| **[Ray (Ray Serve)](https://github.com/ray-project/ray)** | [![GitHub_Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers) | Distributed Compute & Serving Mesh | Apache 2.0 | Scalable multi-model composition and distributed inference |
+| **[SGLang](https://github.com/sgl-project/sglang)** | [![GitHub_Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers) | High-Performance Serving & Runtime | Apache 2.0 | RadixAttention KV-cache reuse, structured JSON decoding |
+| **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** | [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers) | GPU Kernel Compiler & Runtime | Apache 2.0 | Maximum hardware throughput on NVIDIA H100 / B200 GPUs |
+| **[Triton Inference Server](https://github.com/triton-inference-server/server)** | [![GitHub_Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers) | Enterprise Multi-Model Server | BSD 3-Clause | Heterogeneous production serving across PyTorch, ONNX, and LLMs |
+| **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** | [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers) | Production LLM Serving Server | Apache 2.0 | Turnkey Hugging Face model deployment with continuous batching |
+| **[SkyPilot](https://github.com/skypilot-org/skypilot)** | [![GitHub_Stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers) | Multi-Cloud AI Compute Orchestrator | Apache 2.0 | 3x–5x GPU cost reduction via automatic multi-cloud failover |
+| **[Xinference](https://github.com/xorbitsai/inference)** | [![GitHub_Stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers) | Distributed Model Inference Cluster | Apache 2.0 | Turnkey distributed deployment of LLM, speech, and multimodal |
+| **[BentoML](https://github.com/bentoml/BentoML)** | [![GitHub_Stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers) | Unified AI Model Serving Framework | Apache 2.0 | Adaptive batching, multi-model execution graphs, Python microservices |
+| **[ClearML (ClearML Serving)](https://github.com/clearml/clearml)** | [![GitHub_Stars](https://img.shields.io/github/stars/clearml/clearml?style=social&color=white)](https://github.com/clearml/clearml/stargazers) | MLOps & Model Serving Suite | Apache 2.0 | Automated model registry sync, canary rollouts, CI/CD pipelines |
+| **[KServe](https://github.com/kserve/kserve)** | [![GitHub_Stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers) | Kubernetes Model Serving Operator | Apache 2.0 | Cloud-native serverless inference, Knative scale-to-zero, canary |
+| **[GPUStack](https://github.com/gpustack/gpustack)** | [![GitHub_Stars](https://img.shields.io/github/stars/gpustack/gpustack?style=social&color=white)](https://github.com/gpustack/gpustack/stargazers) | Lightweight GPU Cluster Manager | Apache 2.0 | Heterogeneous GPU pooling (Apple Silicon, NVIDIA, AMD) |
+| **[Seldon Core](https://github.com/SeldonIO/seldon-core)** | [![GitHub_Stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social&color=white)](https://github.com/SeldonIO/seldon-core/stargazers) | Cloud-Native MLOps Framework | Apache 2.0 | Complex inference graphs, model explainability, traffic routing |
+| **[Lorax](https://github.com/predibase/lorax)** | [![GitHub_Stars](https://img.shields.io/github/stars/predibase/lorax?style=social&color=white)](https://github.com/predibase/lorax/stargazers) | Multi-LoRA Inference Engine | Apache 2.0 | Serving thousands of fine-tuned adapters on a single GPU |
+| **[KAI Scheduler (Run:ai)](https://github.com/kai-scheduler/KAI-Scheduler)** | [![GitHub_Stars](https://img.shields.io/github/stars/kai-scheduler/KAI-Scheduler?style=social&color=white)](https://github.com/kai-scheduler/KAI-Scheduler/stargazers) | Kubernetes Native AI Scheduler | Apache 2.0 | Gang scheduling, fractional GPU slicing with hard memory isolation |
+| **[Truss](https://github.com/basetenlabs/truss)** | [![GitHub_Stars](https://img.shields.io/github/stars/basetenlabs/truss?style=social&color=white)](https://github.com/basetenlabs/truss/stargazers) | Model Packaging & Serving Framework | Apache 2.0 | Standardized model packaging with fast container rebuilds |
+| **[Kaito](https://github.com/kaito-project/kaito)** | [![GitHub_Stars](https://img.shields.io/github/stars/kaito-project/kaito?style=social&color=white)](https://github.com/kaito-project/kaito/stargazers) | Kubernetes AI Toolchain Operator | Apache 2.0 | Auto-provisioning GPU node pools and preset vLLM runtimes |
 
 ---
 
 ### Deep-Dive Project Profiles
 
 #### 1. [Ollama](https://github.com/ollama/ollama)
-[![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
 - **Primary Use Case**: Frictionless local and internal model execution.
 - **Key Capabilities**: Bundles model weights, configurations, and quantization parameters into an easily shareable Modelfile. Features a standardized REST API conforming to OpenAI specifications, enabling engineering teams to prototype locally and seamlessly transition to dedicated clusters.
 
 #### 2. [vLLM](https://github.com/vllm-project/vllm)
-[![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
 - **Primary Use Case**: The high-throughput backbone for enterprise inference platforms.
 - **Key Capabilities**: Introduces **PagedAttention** to eliminate memory fragmentation in KV-caches. Offers continuous batching, chunked prefill, speculative decoding, multi-GPU tensor parallelism, and native FP8/FP4 support across thousands of open-source model architectures.
 
 #### 3. [LocalAI](https://github.com/mudler/LocalAI)
-[![GitHub stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=social&color=white)](https://github.com/mudler/LocalAI/stargazers)
 - **Primary Use Case**: Self-hosted drop-in OpenAI replacement for multi-modal intelligence.
 - **Key Capabilities**: Operates without requiring dedicated GPUs, running effectively across consumer hardware, on-prem servers, and Kubernetes. Handles text generation, audio transcription, image generation, and vector embeddings in a single unified binary.
 
 #### 4. [Ray (Ray Serve)](https://github.com/ray-project/ray)
-[![GitHub stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)
 - **Primary Use Case**: Enterprise-scale distributed AI computing and multi-model pipelines.
 - **Key Capabilities**: Foundation for Anyscale Platform and production systems at OpenAI. Provides Ray Train, Tune, Data, and **Ray Serve** for composing complex inference pipelines with independent autoscaling, fractional GPU sharing, and zero-downtime rolling upgrades.
 
 #### 5. [SGLang](https://github.com/sgl-project/sglang)
-[![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)
 - **Primary Use Case**: High-concurrency agentic workflows and structured generation.
 - **Key Capabilities**: Implements **RadixAttention** for automatic KV-cache reuse across multi-turn prompts and tree-search decodings. Delivers significant throughput speedups for complex LLM agents, chain-of-thought workflows, and constrained JSON decoding.
 
 #### 6. [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
-[![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)
 - **Primary Use Case**: Maximum hardware-accelerated throughput on NVIDIA Silicon.
 - **Key Capabilities**: Compiles state-of-the-art LLMs with custom CUDA kernels, in-flight batching, tensor parallelism, and FP8/FP4 quantization. Ideal for enterprise data centers operating dedicated NVIDIA H100, H200, and Blackwell B200 clusters.
 
 #### 7. [Triton Inference Server](https://github.com/triton-inference-server/server)
-[![GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)
 - **Primary Use Case**: Multi-framework enterprise inference gateway.
 - **Key Capabilities**: Serves models built with PyTorch, TensorFlow, TensorRT, ONNX, and vLLM simultaneously. Implements dynamic batching, model concurrent execution, ensemble pipelines, and enterprise telemetry metrics for Prometheus and Grafana.
 
 #### 8. [Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)
-[![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)
 - **Primary Use Case**: Turnkey production serving for open-weights Hugging Face models.
 - **Key Capabilities**: Production engine backing Hugging Face Dedicated Endpoints. Features tensor parallelism, flash attention, continuous batching, watermarking, token streaming, and turnkey OCI container images.
 
 #### 9. [SkyPilot](https://github.com/skypilot-org/skypilot)
-[![GitHub stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)
 - **Primary Use Case**: Cloud-agnostic orchestration to slash GPU infrastructure expenses.
 - **Key Capabilities**: Automatically probes and provisions GPUs across AWS, Azure, GCP, Lambda, CoreWeave, and RunPod. Enables automatic failover, spot-instance recovery, and cost savings of 3x–5x for enterprise training and inference jobs.
 
 #### 10. [Xinference](https://github.com/xorbitsai/inference)
-[![GitHub stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)
 - **Primary Use Case**: Distributed multi-model serving for hybrid enterprise environments.
 - **Key Capabilities**: Supports LLMs, multimodal vision models, and speech models. Employs vLLM, SGLang, and llama.cpp backends with cluster coordination, automatic device allocation, and an OpenAI-compliant API.
 
 #### 11. [BentoML](https://github.com/bentoml/BentoML)
-[![GitHub stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers)
 - **Primary Use Case**: Composable production model serving and API service packaging.
 - **Key Capabilities**: Provides adaptive batching, multi-worker pipelines, and model composition. Packages complex ML architectures into standardized OCI containers ready for deployment to any container registry or Kubernetes cluster.
 
 #### 12. [ClearML (ClearML Serving)](https://github.com/clearml/clearml)
-[![GitHub stars](https://img.shields.io/github/stars/clearml/clearml?style=social&color=white)](https://github.com/clearml/clearml/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/clearml/clearml?style=social&color=white)](https://github.com/clearml/clearml/stargazers)
 - **Primary Use Case**: End-to-end MLOps pipeline orchestration and model serving.
 - **Key Capabilities**: Automatically synchronizes with model registries to roll out updated weights. Supports canary endpoint deployment with weighted traffic routing, dynamic autoscaling, and comprehensive telemetry tracking.
 
 #### 13. [KServe](https://github.com/kserve/kserve)
-[![GitHub stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers)
 - **Primary Use Case**: Kubernetes-native standard for generative and predictive model serving.
 - **Key Capabilities**: Built on Knative and Istio, enabling scale-to-zero when idle, canary rollouts, inference graphs, and native integration with vLLM, Triton, and TorchServe runtimes.
 
 #### 14. [GPUStack](https://github.com/gpustack/gpustack)
-[![GitHub stars](https://img.shields.io/github/stars/gpustack/gpustack?style=social&color=white)](https://github.com/gpustack/gpustack/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/gpustack/gpustack?style=social&color=white)](https://github.com/gpustack/gpustack/stargazers)
 - **Primary Use Case**: Unified clustering of heterogeneous GPU hardware.
 - **Key Capabilities**: Pools Apple Silicon, NVIDIA GPUs, AMD ROCm, and Intel accelerators into a unified model serving cluster with automatic load balancing and an OpenAI-compatible REST API.
 
 #### 15. [Seldon Core](https://github.com/SeldonIO/seldon-core)
-[![GitHub stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social&color=white)](https://github.com/SeldonIO/seldon-core/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social&color=white)](https://github.com/SeldonIO/seldon-core/stargazers)
 - **Primary Use Case**: Enterprise MLOps governance and complex inference graphs.
 - **Key Capabilities**: Manages thousands of models in production with advanced routing, Alibi model explainability, outlier detection, and traffic splitting across canary clusters.
 
 #### 16. [Lorax](https://github.com/predibase/lorax)
-[![GitHub stars](https://img.shields.io/github/stars/predibase/lorax?style=social&color=white)](https://github.com/predibase/lorax/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/predibase/lorax?style=social&color=white)](https://github.com/predibase/lorax/stargazers)
 - **Primary Use Case**: Serving thousands of fine-tuned LoRA adapters on a single GPU.
 - **Key Capabilities**: Dynamically loads and unloads fine-tuned LoRA adapter weights in memory without restarting the base model container, slashing enterprise serving costs for multi-tenant applications.
 
 #### 17. [KAI Scheduler (Run:ai)](https://github.com/kai-scheduler/KAI-Scheduler)
-[![GitHub stars](https://img.shields.io/github/stars/kai-scheduler/KAI-Scheduler?style=social&color=white)](https://github.com/kai-scheduler/KAI-Scheduler/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/kai-scheduler/KAI-Scheduler?style=social&color=white)](https://github.com/kai-scheduler/KAI-Scheduler/stargazers)
 - **Primary Use Case**: Kubernetes AI cluster gang scheduling and GPU sharing.
 - **Key Capabilities**: Open-sourced by NVIDIA Run:ai. Provides fractional GPU slicing with hard memory boundaries, hierarchical queue management, gang scheduling, and oversubscription, increasing total cluster utilization by up to 3x.
 
 #### 18. [Truss](https://github.com/basetenlabs/truss)
-[![GitHub stars](https://img.shields.io/github/stars/basetenlabs/truss?style=social&color=white)](https://github.com/basetenlabs/truss/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/basetenlabs/truss?style=social&color=white)](https://github.com/basetenlabs/truss/stargazers)
 - **Primary Use Case**: Frictionless model packaging for production inference.
 - **Key Capabilities**: Created by Baseten to bridge data science and DevOps. Containerizes Python/PyTorch models with automated hardware acceleration detection, live code reloading, and multi-cloud deployment manifests.
 
 #### 19. [Kaito (Kubernetes AI Toolchain Operator)](https://github.com/kaito-project/kaito)
-[![GitHub stars](https://img.shields.io/github/stars/kaito-project/kaito?style=social&color=white)](https://github.com/kaito-project/kaito/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/kaito-project/kaito?style=social&color=white)](https://github.com/kaito-project/kaito/stargazers)
 - **Primary Use Case**: Automated GPU node provisioning and model deployment in K8s.
 - **Key Capabilities**: Automated Kubernetes operator backed by Microsoft Azure. Deploys open-source LLMs via a single Workspace CRD, automatically calculating optimal GPU node types, provisioning infrastructure, and configuring vLLM runtimes.
 
@@ -329,7 +329,7 @@ We welcome contributions from platform engineers, MLOps practitioners, and open-
    ```
 3. ✏️ **Add or Update Entries**:
    - Ensure SaaS additions include verified pricing, valuation, and free tier limits.
-   - For open-source additions, include the official GitHub star badge linking to the stargazers page.
+   - For open-source additions, include the official GitHub Stars_Badge linking to the stargazers page.
    - Keep descriptions factual, concise, and backed by official documentation.
 4. 📬 **Submit a Pull Request**: Detail your additions and cite official sources in the PR description.
 

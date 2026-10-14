@@ -1,6 +1,6 @@
 # Awesome-Managed-Enterprise-Dedicated-Platform-Plans
 
-# Top Managed Enterprise & Dedicated Platform Plans Ecosystem
+## Top Managed Enterprise & Dedicated Platform Plans Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Dedicated GPU Inference, Enterprise SLAs & Self-Hosted Alternatives*  
